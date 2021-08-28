@@ -1,3 +1,15 @@
+html{
+    background: url(../img/fundo_med.jpg);
+    background-size: cover;
+
+}
+
+.titulo{
+    background-color: #fff;
+    padding: 10px;
+
+}
+
 .container{
 margin: 0 auto;
 width: 960px;
@@ -12,3 +24,39 @@ width: 960px;
 
 
 }
+
+.bloco img{
+    border: 1px solid #999;
+    float: left ;
+    margin: 10px 10px 0px 0px;
+    padding: 2px;
+
+}
+
+.bloco a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+
+.bloco a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.bloco p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5; 
+}
+
+.recuo{text-indent: 15.1em;}
+
+
+.clear{
+    clear: both
+}
+
